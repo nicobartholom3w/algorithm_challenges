@@ -44,5 +44,5 @@ MaxHeap.prototype.extractMax = function() {
 };
 
 MaxHeap.prototype.heapSort = function() {
-	=
+	
 };
