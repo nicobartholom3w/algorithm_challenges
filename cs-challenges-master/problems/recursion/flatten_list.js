@@ -22,8 +22,8 @@ CSC.iterativeListFlatten = function(arr) {
       }
     }
   }
-  console.log(arr);
-  console.log(newArr);
+  // console.log(arr);
+  // console.log(newArr);
 };
 
 CSC.recursiveListFlatten = function(arr) {

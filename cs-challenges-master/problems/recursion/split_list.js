@@ -16,7 +16,25 @@ CSC.iterativeListSplit = function(arr, element) {
 };
 
 CSC.recursiveListSplit = function(arr, element) {
-
+	console.log(arr);
+	// console.log(arr.shift());
+	let lowArr = [];
+	let highArr = [];
+	for(let i = arr.length - 1; i >= 0; i--){
+		el = arr.pop();
+		if(el >= element){
+			highArr.push(el);
+		}
+		else {
+			lowArr.push(el);
+		}
+	}
+	let one = arr.concat(lowArr);
+	let two = arr.concat(highArr);
+	// (arr.concat(lowArr)).concat(highArr);
+	// console.log(one)
+	// console.log(two);
+	// console.log(arr);
 };
 
 })(CSC);
